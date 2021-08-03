@@ -1,6 +1,9 @@
-# @eduzz/houston-mobile
+# Eduzz Houston Mobile
 
-Eduzz Houston Mobile Components
+
+[![Publish](https://github.com/eduzz/houston/actions/workflows/master.yml/badge.svg)](https://github.com/eduzz/houston/actions/workflows/master.yml) [![version](https://img.shields.io/npm/v/@eduzz/houston)](https://www.npmjs.com/package/@eduzz/houston-mobile)
+
+<img src="example/src/assets/welcome.svg" width="100%" />
 
 ## Installation
 
