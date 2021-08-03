@@ -1,9 +1,7 @@
 import * as React from 'react';
-import { Modal, IModal as IActionSheet } from '@eduzz/houston-mobile';
+import { IModal, Modal } from '@eduzz/houston-mobile';
 
-export { IModal as IActionSheet } from '@eduzz/houston-mobile';
-
-const ActionSheet = (props: IActionSheet) => {
+const ActionSheet = (props: IModal) => {
   return <Modal {...props}>{props.children}</Modal>;
 };
 

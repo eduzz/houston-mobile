@@ -1,5 +1,8 @@
-import Modal, { IModal } from './Modal';
-import ActionSheet, { IActionSheet } from './ActionSheet';
-import ActionItem, { IActionItem } from './ActionSheet/ActionItem';
+export { default as Modal } from './Modal';
+export * from './Modal';
 
-export { Modal, IModal, ActionSheet, IActionSheet, ActionItem, IActionItem };
+export { default as ActionSheet } from './ActionSheet';
+export * from './ActionSheet';
+
+export { default as ActionItem } from './ActionSheet/ActionItem';
+export * from './ActionSheet/ActionItem';
