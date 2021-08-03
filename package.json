@@ -1,6 +1,6 @@
 {
   "name": "@eduzz/houston-mobile",
-  "version": "0.1.0",
+  "version": "0.30.0",
   "description": "Eduzz Houston Mobile Components",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
