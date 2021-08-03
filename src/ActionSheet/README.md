@@ -10,7 +10,7 @@ import { ActionSheet } from '@eduzz/houston-mobile';
 
 ## Usage
 
-```jsx
+```js
 <ActionSheet visible={visible} onRequestClose={closeModal}>
   ...
 </ActionSheet>

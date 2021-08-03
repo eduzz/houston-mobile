@@ -10,13 +10,11 @@ import { ActionSheet, ActionItem } from '@eduzz/houston-mobile';
 
 ## Usage
 
-```jsx
-<>
-  <ActionSheet visible={visible} onRequestClose={closeModal}>
-    <ActionItem title='Title 1' avoidClosing description='Example of description 1' color='#fff' />
-    <ActionItem title='Title 2' description='Example of description 2' color='#fff' />
-  </ActionSheet>
-</>
+```js
+<ActionSheet visible={visible} onRequestClose={closeModal}>
+  <ActionItem title='Title 1' avoidClosing description='Example of description 1' color='#fff' />
+  <ActionItem title='Title 2' description='Example of description 2' color='#fff' />
+</ActionSheet>
 ```
 
 ## Props
