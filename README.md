@@ -31,6 +31,10 @@ yarn example ios
 
 ## Components
 
+* [Modal](https://github.com/eduzz/houston-mobile/tree/master/src/Modal)
+* [ActionSheet](https://github.com/eduzz/houston-mobile/tree/master/src/ActionSheet)
+* [ActionItem](https://github.com/eduzz/houston-mobile/tree/master/src/ActionSheet/ActionItem)
+
 
 ## License
 
