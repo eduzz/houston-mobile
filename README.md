@@ -38,6 +38,10 @@ yarn example ios
 * [ActionSheet](https://github.com/eduzz/houston-mobile/tree/master/src/ActionSheet)
 * [ActionItem](https://github.com/eduzz/houston-mobile/tree/master/src/ActionSheet/ActionItem)
 
+## Helpers
+
+* [ScreenScale](https://github.com/eduzz/houston-mobile/blob/add-screenScale/src/helpers/screenScale.ts)
+
 
 ## License
 
