@@ -42,6 +42,7 @@ yarn example ios
 
 * [ScreenScale](https://github.com/eduzz/houston-mobile/blob/add-screenScale/src/helpers/screenScale.ts)
 
+
 ## License
 
 MIT
