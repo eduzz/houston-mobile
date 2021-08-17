@@ -1,30 +1,18 @@
-# react-native-bob-monorepo
+# Eduzz Houston Mobile
 
-A monorepo starter for react-native-builder-bob packages
+[![Publish](https://github.com/eduzz/houston/actions/workflows/master.yml/badge.svg)](https://github.com/eduzz/houston/actions/workflows/master.yml) [![version](https://img.shields.io/npm/v/@eduzz/houston)](https://www.npmjs.com/package/@eduzz/houston-mobile)
 
-## Installation
+<img src="example/src/assets/welcome.svg" width="100%" />
 
-```sh
-yarn add @react-native-bob-monorepo/package1
-yarn add @react-native-bob-monorepo/package2
-```
+Documentation can be found at [here](https://eduzz.github.io/houston/).
 
-## Usage
+## Package Versions
 
-```js
-import Package1 from "@react-native-bob-monorepo/package1";
-import Package2 from "@react-native-bob-monorepo/package1";
-
-// ...
-
-const result = Package1;
-console.log(2 * result === Package2)
-```
+| Name                                           | Latest Version                                                                                                 |
+|------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| [@eduzz/houston-mobile-ui](/packages/ui)       | [![version](https://img.shields.io/npm/v/@eduzz/houston)](https://www.npmjs.com/package/@eduzz/houston-mobile) |
+| [@eduzz/houston-mobile-icons](/packages/icons) | [![version](https://img.shields.io/npm/v/@eduzz/houston)](https://www.npmjs.com/package/@eduzz/houston-mobile) |
 
 ## Contributing
 
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
-## License
-
-MIT
+Please read through our [contribution guide](CONTRIBUTING.md) to get started!
