@@ -33,7 +33,7 @@ yarn example ios
 
 ## Icons
 
-* Please check at the [documentation](https://eduzz.github.io/houston/icons/list) to see all the available icons.
+* Please check the [documentation](https://eduzz.github.io/houston/icons/list) to see all the available icons.
 
 
 ## License
