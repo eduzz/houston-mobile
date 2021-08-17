@@ -10,9 +10,7 @@ To get started with the project, run `yarn` in the root directory to install the
 yarn
 ```
 
-> While it's possible to use [`npm`](https://github.com/npm/cli), the tooling is built around [`yarn`](https://classic.yarnpkg.com/), so you'll have an easier time if you use `yarn` for development.
-
-While developing, you can run the [example app](/example/) to test your changes. Any changes you make in your library's JavaScript code will be reflected in the example app without a rebuild. If you change any native code, then you'll need to rebuild the example app.
+While developing, you can run the [example app](/example/) to test your changes.
 
 To start the packager:
 
@@ -30,12 +28,6 @@ To run the example app on iOS:
 
 ```sh
 yarn example ios
-```
-
-To run the example app on Web:
-
-```sh
-yarn example web
 ```
 
 Make sure your code passes TypeScript and ESLint. Run the following to verify:
@@ -57,6 +49,10 @@ Remember to add tests for your change if possible. Run the unit tests by:
 yarn test
 ```
 
+To edit the Objective-C files, open `example/ios/HoustonMobileExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > @eduzz/houston-mobile`.
+
+To edit the Kotlin files, open `example/android` in Android studio and find the source files at `reactnativebobmonorepo` under `Android`.
+
 ### Commit message convention
 
 We follow the [conventional commits specification](https://www.conventionalcommits.org/en) for our commit messages:
@@ -77,16 +73,6 @@ Our pre-commit hooks verify that your commit message matches this format when co
 We use [TypeScript](https://www.typescriptlang.org/) for type checking, [ESLint](https://eslint.org/) with [Prettier](https://prettier.io/) for linting and formatting the code, and [Jest](https://jestjs.io/) for testing.
 
 Our pre-commit hooks verify that the linter and tests pass when committing.
-
-### Publishing to npm
-
-We use [release-it](https://github.com/release-it/release-it) to make it easier to publish new versions. It handles common tasks like bumping version based on semver, creating tags and releases etc.
-
-To publish new versions, run the following:
-
-```sh
-yarn release
-```
 
 ### Scripts
 

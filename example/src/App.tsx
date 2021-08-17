@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import { ActionItem, ActionSheet } from "@eduzz/houston-mobile-ui";
+import React, { useState } from "react";
+import { StyleSheet, Text, TouchableOpacity, View, Image } from "react-native";
 
-import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native';
-
-import { ActionItem, ActionSheet } from '@eduzz/houston-mobile';
-
-import deleteImage from './assets/delete.png';
-import notificationsOff from './assets/notificationoff.png';
+import deleteImage from "./assets/delete.png";
+import notificationsOff from "./assets/notificationoff.png";
 
 export default function App() {
   const [actionSheetVisible, setActionSheetVisible] = useState(false);
@@ -52,20 +50,20 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
   button: {
     padding: 8,
-    backgroundColor: '#0D47A1',
+    backgroundColor: "#0D47A1",
   },
   text: {
-    color: '#fff',
+    color: "#fff",
   },
   icon: {
-    tintColor: '#fff',
-    width: '100%',
-    height: '100%',
+    tintColor: "#fff",
+    width: "100%",
+    height: "100%",
   },
 });

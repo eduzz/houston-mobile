@@ -1,43 +1,29 @@
-# Eduzz Houston Mobile
+# react-native-bob-monorepo
 
-
-[![Publish](https://github.com/eduzz/houston/actions/workflows/master.yml/badge.svg)](https://github.com/eduzz/houston/actions/workflows/master.yml) [![version](https://img.shields.io/npm/v/@eduzz/houston)](https://www.npmjs.com/package/@eduzz/houston-mobile)
-
-<img src="example/src/assets/welcome.svg" width="100%" />
+A monorepo starter for react-native-builder-bob packages
 
 ## Installation
 
 ```sh
-yarn add @eduzz/houston-mobile
+yarn add @react-native-bob-monorepo/package1
+yarn add @react-native-bob-monorepo/package2
 ```
 
 ## Usage
 
 ```js
-import { Modal } from '@eduzz/houston-mobile';
+import Package1 from "@react-native-bob-monorepo/package1";
+import Package2 from "@react-native-bob-monorepo/package1";
 
 // ...
 
-<Modal visible={visible} onRequestClose={closeModal}>
-  ...
-</Modal>
+const result = Package1;
+console.log(2 * result === Package2)
 ```
 
-## Examples
+## Contributing
 
-```sh
-# Android app
-yarn example android
-# iOS app
-yarn example ios
-```
-
-## Components
-
-* [Modal](https://github.com/eduzz/houston-mobile/tree/master/src/Modal)
-* [ActionSheet](https://github.com/eduzz/houston-mobile/tree/master/src/ActionSheet)
-* [ActionItem](https://github.com/eduzz/houston-mobile/tree/master/src/ActionSheet/ActionItem)
-
+See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
 ## License
 
