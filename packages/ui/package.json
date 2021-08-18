@@ -1,7 +1,7 @@
 {
   "name": "@eduzz/houston-mobile-ui",
   "description": "Houston mobile UI components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "keywords": [
     "react-native",
     "houston-mobile",
@@ -78,6 +78,5 @@
         }
       ]
     ]
-  },
-  "gitHead": "e68969fc9419e2dba89433837a037a6851714a95"
+  }
 }
