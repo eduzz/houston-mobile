@@ -1,21 +1,57 @@
 {
   "name": "@eduzz/houston-mobile",
-  "private": false,
+  "description": "Houston mobile",
   "version": "0.30.1",
-  "description": "Eduzz Houston Mobile Bundle",
-  "author": "Eduzz Team",
+  "keywords": [
+    "react-native",
+    "houston-mobile",
+    "ios",
+    "android"
+  ],
   "license": "MIT",
-  "homepage": "https://github.com/eduzz/houston-mobile",
-  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eduzz/houston-mobile"
+    "url": "https://github.com/eduzz/houston-mobile.git",
+    "directory": "packages/bundle"
   },
   "bugs": {
     "url": "https://github.com/eduzz/houston-mobile/issues"
   },
+  "homepage": "https://github.com/eduzz/houston-mobile.git#readme",
+  "main": "lib/commonjs/index.js",
+  "react-native": "src/index.tsx",
+  "source": "src/index.tsx",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
+  "files": [
+    "src",
+    "lib",
+    "!**/__tests__"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepare": "bob build",
+    "clean": "del lib"
+  },
   "dependencies": {
-    "@eduzz/houston-mobile-ui": "*",
-    "@eduzz/houston-mobile-icons": "*"
+    "@eduzz/houston-mobile-icons": "*",
+    "@eduzz/houston-mobile-ui": "*"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
+        }
+      ]
+    ]
   }
 }
