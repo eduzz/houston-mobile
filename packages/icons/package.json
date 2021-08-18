@@ -1,7 +1,7 @@
 {
   "name": "@eduzz/houston-mobile-icons",
   "description": "Houston mobile icons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "react-native",
     "houston-mobile-icons",
@@ -65,5 +65,6 @@
         }
       ]
     ]
-  }
+  },
+  "gitHead": "60775803c3d9eb6cba2b12b061eb21fe005adbb4"
 }
