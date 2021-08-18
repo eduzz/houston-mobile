@@ -1,7 +1,7 @@
 {
   "name": "@eduzz/houston-mobile",
   "description": "Houston mobile",
-  "version": "0.30.2",
+  "version": "0.30.3",
   "keywords": [
     "react-native",
     "houston-mobile",
@@ -32,13 +32,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "prepare": "bob build",
-    "clean": "del lib"
-  },
   "dependencies": {
-    "@eduzz/houston-mobile-icons": "^0.0.2",
-    "@eduzz/houston-mobile-ui": "^0.0.2"
+    "@eduzz/houston-mobile-icons": "^0.0.3",
+    "@eduzz/houston-mobile-ui": "^0.0.3"
   },
   "react-native-builder-bob": {
     "source": "src",
@@ -54,5 +50,5 @@
       ]
     ]
   },
-  "gitHead": "60775803c3d9eb6cba2b12b061eb21fe005adbb4"
+  "gitHead": "e68969fc9419e2dba89433837a037a6851714a95"
 }
