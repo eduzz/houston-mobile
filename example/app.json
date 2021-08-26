@@ -3,6 +3,7 @@
   "displayName": "BobMonorepo Example",
   "expo": {
     "name": "@eduzz/houston-mobile-example",
+    "slug": "houston-mobile-example",
     "description": "Example app for @eduzz/houston-mobile",
     "privacy": "public",
     "version": "1.0.0",
