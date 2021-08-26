@@ -65,5 +65,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-vector-icons": "^8.1.0"
   }
 }

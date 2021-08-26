@@ -1,1 +1,1 @@
-export default 2;
+export * from "react-native-vector-icons";
