@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.1.0...@eduzz/houston-mobile-ui@0.2.0) (2021-08-26)
+
+
+### Features
+
+* add react-native-vector-icons ([a3a8853](https://github.com/eduzz/houston-mobile/commit/a3a88536606bd55b7f1890a96d43108e83d23def))
+
+
+
+
+
 # [0.1.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.0.5...@eduzz/houston-mobile-ui@0.1.0) (2021-08-26)
 
 
