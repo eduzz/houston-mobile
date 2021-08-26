@@ -59,11 +59,13 @@
     "react-native": "0.63.4",
     "react-native-builder-bob": "^0.18.1",
     "release-it": "^14.11.5",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "react-native-elements": "^3.4.2"
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-elements": "*"
   },
   "react-native-builder-bob": {
     "source": "src",
@@ -78,8 +80,5 @@
         }
       ]
     ]
-  },
-  "dependencies": {
-    "react-native-elements": "^3.4.2"
   }
 }
