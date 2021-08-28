@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.8.0...@eduzz/houston-mobile-ui@0.9.0) (2021-08-28)
+
+
+### Features
+
+* add react-native-platform-searchbar as dependency ([ec7f2f5](https://github.com/eduzz/houston-mobile/commit/ec7f2f5f61b905b532bac4986d0a5f8d5f6a6206))
+
+
+
+
+
 # [0.8.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.7.1...@eduzz/houston-mobile-ui@0.8.0) (2021-08-28)
 
 
