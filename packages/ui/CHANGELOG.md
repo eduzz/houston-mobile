@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.1](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.10.0...@eduzz/houston-mobile-ui@0.10.1) (2021-08-28)
+
+
+### Bug Fixes
+
+* name of the MaterialIcons ([200712b](https://github.com/eduzz/houston-mobile/commit/200712be4e607c05f02d50a45fbd3758422ab002))
+
+
+
+
+
 # [0.10.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.9.0...@eduzz/houston-mobile-ui@0.10.0) (2021-08-28)
 
 
