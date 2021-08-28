@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.4](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.10.3...@eduzz/houston-mobile-ui@0.10.4) (2021-08-28)
+
+
+### Bug Fixes
+
+* remove some dependencies that need to be installed directly in the app project ([4c04075](https://github.com/eduzz/houston-mobile/commit/4c04075a14edc78c9ae3bff870d2bd8087779b64))
+
+
+
+
+
 ## [0.10.3](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.10.2...@eduzz/houston-mobile-ui@0.10.3) (2021-08-28)
 
 
