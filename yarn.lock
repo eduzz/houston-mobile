@@ -16882,6 +16882,11 @@ react-native-builder-bob@^0.18.1:
   optionalDependencies:
     jetifier "^1.6.6"
 
+react-native-platform-searchbar@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-platform-searchbar/-/react-native-platform-searchbar-1.1.0.tgz#e661a71ab1ff6b39477c8f030b1aa7497e6b8777"
+  integrity sha512-0kmmD+VC2QfJs4+HVLNam3DhI/KwGDTugmGBzz7uph4O5YjIsxgLPchQD1DqFRam4pQWlp/eXIIe0YMbRbzyLg==
+
 react-native-safe-area-context@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-3.2.0.tgz#06113c6b208f982d68ab5c3cebd199ca93db6941"
