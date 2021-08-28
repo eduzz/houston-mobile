@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.9.0...@eduzz/houston-mobile-ui@0.10.0) (2021-08-28)
+
+
+### Features
+
+* export MaterialIcons component from react-native-vector-icons in the Icons package ([589ecdb](https://github.com/eduzz/houston-mobile/commit/589ecdb214b9fdf799613310650e92b1914c297d))
+
+
+
+
+
 # [0.9.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.8.0...@eduzz/houston-mobile-ui@0.9.0) (2021-08-28)
 
 
