@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.1](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.7.0...@eduzz/houston-mobile-ui@0.7.1) (2021-08-28)
+
+
+### Bug Fixes
+
+* change Toast export ([dc3cfb7](https://github.com/eduzz/houston-mobile/commit/dc3cfb7b60ffa1c8eba29d94eb76bcd769c06f0d))
+
+
+
+
+
 # [0.7.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.5.0...@eduzz/houston-mobile-ui@0.7.0) (2021-08-28)
 
 
