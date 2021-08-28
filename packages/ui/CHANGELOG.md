@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.5.0...@eduzz/houston-mobile-ui@0.6.0) (2021-08-28)
+
+
+### Features
+
+* add react-native-toast-message and export all it's components in the UI package ([943dad7](https://github.com/eduzz/houston-mobile/commit/943dad7824a8bebfdaea307495fb3fed0caa5905))
+
+
+
+
+
 # [0.5.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.2.1...@eduzz/houston-mobile-ui@0.5.0) (2021-08-26)
 
 
