@@ -1,1 +1,3 @@
-export * from "react-native-vector-icons";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+
+export { MaterialIcons };
