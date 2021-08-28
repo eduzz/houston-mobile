@@ -80,6 +80,7 @@
     ]
   },
   "dependencies": {
-    "react-native-elements": "^3.4.2"
+    "react-native-elements": "^3.4.2",
+    "react-native-toast-message": "^1.4.9"
   }
 }

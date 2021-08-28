@@ -5,3 +5,5 @@ import Modal, { IModal } from "./Modal";
 export { Modal, IModal, ActionSheet, ActionItem };
 
 export * from "react-native-elements";
+
+export * from "react-native-toast-message";
