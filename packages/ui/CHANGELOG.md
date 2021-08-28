@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.7.1...@eduzz/houston-mobile-ui@0.8.0) (2021-08-28)
+
+
+### Features
+
+* remove react-native-elements and add native-base as dependency ([d264c00](https://github.com/eduzz/houston-mobile/commit/d264c0095b195702f83a5315a97ad38324db7bf2))
+
+
+
+
+
 ## [0.7.1](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.7.0...@eduzz/houston-mobile-ui@0.7.1) (2021-08-28)
 
 
