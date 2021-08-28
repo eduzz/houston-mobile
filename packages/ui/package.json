@@ -80,7 +80,12 @@
     ]
   },
   "dependencies": {
-    "react-native-elements": "^3.4.2",
-    "react-native-toast-message": "^1.4.9"
+    "add": "^2.0.6",
+    "native-base": "^3.1.0",
+    "react-native-safe-area-context": "^3.3.0",
+    "react-native-svg": "^12.1.1",
+    "styled-components": "^5.3.1",
+    "styled-system": "^5.1.5",
+    "yarn": "^1.22.11"
   }
 }
