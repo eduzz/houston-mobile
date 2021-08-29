@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.32.11](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile@0.32.3...@eduzz/houston-mobile@0.32.11) (2021-08-29)
+
+
+### Reverts
+
+* changes to native-base ([6941222](https://github.com/eduzz/houston-mobile/commit/69412222df864b26dc7dabf10eed17a6ff55d157))
+
+
+
+
+
 ## [0.32.3](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile@0.32.2...@eduzz/houston-mobile@0.32.3) (2021-08-28)
 
 **Note:** Version bump only for package @eduzz/houston-mobile

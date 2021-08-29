@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.5](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.7.1...@eduzz/houston-mobile-ui@0.10.5) (2021-08-29)
+
+
+### Reverts
+
+* changes to native-base ([6941222](https://github.com/eduzz/houston-mobile/commit/69412222df864b26dc7dabf10eed17a6ff55d157))
+
+
+
+
+
 ## [0.7.1](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.7.0...@eduzz/houston-mobile-ui@0.7.1) (2021-08-28)
 
 

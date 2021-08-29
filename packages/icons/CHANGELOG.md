@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.2](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-icons@0.3.0...@eduzz/houston-mobile-icons@0.4.2) (2021-08-29)
+
+
+### Reverts
+
+* changes to native-base ([6941222](https://github.com/eduzz/houston-mobile/commit/69412222df864b26dc7dabf10eed17a6ff55d157))
+
+
+
+
+
 # [0.3.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-icons@0.0.7...@eduzz/houston-mobile-icons@0.3.0) (2021-08-26)
 
 
