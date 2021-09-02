@@ -24,17 +24,12 @@
     "build": "lerna run prepare",
     "prerelease": "lerna run clean",
     "release": "lerna publish",
-    "example": "yarn --cwd example"
+    "example": "yarn --cwd example",
+    "prepare": "husky install"
   },
   "resolutions": {
     "react": "~16.13.1",
     "react-native": "~0.63.2"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn typescript"
-    }
   },
   "commitlint": {
     "extends": [
