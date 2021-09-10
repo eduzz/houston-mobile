@@ -1,9 +1,30 @@
 import Toast from "react-native-toast-message";
 
-import ActionSheet from "./ActionSheet";
-import ActionItem from "./ActionSheet/ActionItem";
-import Modal, { IModal } from "./Modal";
+import ActionSheet from "./Components/ActionSheet";
+import ActionItem from "./Components/ActionSheet/ActionItem";
+import Modal, { IModal } from "./Components/Modal";
+import Text from "./Components/Text";
+import ThemeProvider from "./Components/ThemeProvider";
 
-export { Modal, IModal, ActionSheet, ActionItem, Toast };
+// houston-mobile ui components export
+export { Modal, IModal, ActionSheet, ActionItem, Toast, Text, ThemeProvider };
 
-export * from "react-native-elements";
+// react-native-elements not modified components export
+export {
+  Avatar,
+  Button,
+  Card,
+  CheckBox,
+  Divider,
+  Header,
+  Icon,
+  Image,
+  Input,
+  LinearProgress,
+  ListItem,
+  SearchBar,
+  Slider,
+  Switch,
+  makeStyles,
+  useTheme,
+} from "react-native-elements";

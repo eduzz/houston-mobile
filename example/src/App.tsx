@@ -1,6 +1,13 @@
-import { ActionItem, ActionSheet } from "@eduzz/houston-mobile-ui";
+import {
+  ActionItem,
+  ActionSheet,
+  Text,
+  Button,
+  Divider,
+  ThemeProvider,
+} from "@eduzz/houston-mobile-ui";
 import React, { useState } from "react";
-import { StyleSheet, Text, TouchableOpacity, View, Image } from "react-native";
+import { StyleSheet, View, Image } from "react-native";
 
 import deleteImage from "./assets/delete.png";
 import notificationsOff from "./assets/notificationoff.png";
@@ -17,33 +24,57 @@ export default function App() {
   };
 
   return (
-    <View style={styles.container}>
-      <TouchableOpacity onPress={openActionSheet}>
-        <View style={styles.button}>
-          <Text style={styles.text}>ActionSheet</Text>
-        </View>
-      </TouchableOpacity>
+    <ThemeProvider
+      theme={{
+        colors: { primary: "#0D47A1" },
+        Button: {
+          titleStyle: { color: "#fff", fontWeight: "bold" },
+        },
+      }}
+    >
+      <View style={styles.container}>
+        <Text size="xx-small">Houston Design System</Text>
+        <Text size="x-small">Houston Design System</Text>
+        <Text size="small">Houston Design System</Text>
+        <Text size="normal">Houston Design System</Text>
+        <Text size="medium">Houston Design System</Text>
+        <Text size="large">Houston Design System</Text>
+        <Text size="x-large">Houston Design System</Text>
 
-      <ActionSheet
-        backgroundColor="#212121"
-        visible={actionSheetVisible}
-        onRequestClose={closeActionSheet}
-      >
-        <ActionItem
-          title="Excluir"
-          avoidClosing
-          description="Excluir esta notificação"
-          color="#fff"
-          iconElement={<Image style={styles.icon} source={deleteImage} />}
-        />
-        <ActionItem
-          title="Desativar"
-          description="Pare de receber notificações deste curso"
-          color="#fff"
-          iconElement={<Image style={styles.icon} source={notificationsOff} />}
-        />
-      </ActionSheet>
-    </View>
+        <Divider width={50} />
+
+        <Text weight="light">Houston Design System</Text>
+        <Text weight="regular">Houston Design System</Text>
+        <Text weight="semibold">Houston Design System</Text>
+        <Text weight="bold">Houston Design System</Text>
+
+        <Divider width={50} />
+
+        <Button title="ActionSheet" onPress={openActionSheet} />
+
+        <ActionSheet
+          backgroundColor="#212121"
+          visible={actionSheetVisible}
+          onRequestClose={closeActionSheet}
+        >
+          <ActionItem
+            title="Excluir"
+            avoidClosing
+            description="Excluir esta notificação"
+            color="#fff"
+            iconElement={<Image style={styles.icon} source={deleteImage} />}
+          />
+          <ActionItem
+            title="Desativar"
+            description="Pare de receber notificações deste curso"
+            color="#fff"
+            iconElement={
+              <Image style={styles.icon} source={notificationsOff} />
+            }
+          />
+        </ActionSheet>
+      </View>
+    </ThemeProvider>
   );
 }
 
@@ -53,13 +84,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-  },
-  button: {
-    padding: 8,
-    backgroundColor: "#0D47A1",
-  },
-  text: {
-    color: "#fff",
   },
   icon: {
     tintColor: "#fff",
