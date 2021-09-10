@@ -5,9 +5,13 @@ import ActionItem from "./Components/ActionSheet/ActionItem";
 import Modal, { IModal } from "./Components/Modal";
 import Text from "./Components/Text";
 import ThemeProvider from "./Components/ThemeProvider";
+import { FontSize, FontWeight } from "./Interfaces/typography";
+
+// houston-mobile ui component types export
+export { IModal, FontSize, FontWeight };
 
 // houston-mobile ui components export
-export { Modal, IModal, ActionSheet, ActionItem, Toast, Text, ThemeProvider };
+export { Modal, ActionSheet, ActionItem, Toast, Text, ThemeProvider };
 
 // react-native-elements not modified components export
 export {
