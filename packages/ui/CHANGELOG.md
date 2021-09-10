@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.8](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.11.7...@eduzz/houston-mobile-ui@0.11.8) (2021-09-10)
+
+
+### Bug Fixes
+
+* style props spreading order ([fdc8482](https://github.com/eduzz/houston-mobile/commit/fdc84824c8f6c7176f5846aa96a28a3486ff85a3))
+
+
+
+
+
 ## [0.11.7](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.11.3...@eduzz/houston-mobile-ui@0.11.7) (2021-09-10)
 
 
