@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.2](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.11.1...@eduzz/houston-mobile-ui@0.11.2) (2021-09-10)
+
+
+### Bug Fixes
+
+* add useDark to the ThemeProvider props ([98e59fc](https://github.com/eduzz/houston-mobile/commit/98e59fc943731a16f2ac594f85eb2c459429c5e1))
+
+
+
+
+
 ## [0.11.1](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.11.0...@eduzz/houston-mobile-ui@0.11.1) (2021-09-10)
 
 
