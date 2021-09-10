@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.1](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.11.0...@eduzz/houston-mobile-ui@0.11.1) (2021-09-10)
+
+
+### Bug Fixes
+
+* set text children to any ([e4e4006](https://github.com/eduzz/houston-mobile/commit/e4e4006852f448e9bb849dd5803f5a67757d5877))
+
+
+
+
+
 # [0.11.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.10.5...@eduzz/houston-mobile-ui@0.11.0) (2021-09-10)
 
 
