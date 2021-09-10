@@ -3,7 +3,7 @@ import type { FontSize, FontWeight } from "../Interfaces/typography";
 
 export type RecursivePartial<T> = { [P in keyof T]?: RecursivePartial<T[P]> };
 
-export declare module "react-native-elements" {
+declare module "react-native-elements" {
   export type darkMode = boolean;
 
   export interface Colors {
