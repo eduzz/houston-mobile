@@ -8,13 +8,15 @@ import type { RecursivePartial } from "../../Declarations/react-native-elements"
 import { baseTheme } from "../../theme";
 
 interface ThemeProviderProps {
+  useDark?: boolean;
   theme?: RecursivePartial<FullTheme>;
   children?: any;
 }
 
-const ThemeProvider = ({ theme, children }: ThemeProviderProps) => {
+const ThemeProvider = ({ useDark, theme, children }: ThemeProviderProps) => {
   return (
     <RNEThemeProvider
+      useDark={useDark}
       theme={{
         ...baseTheme,
         ...theme,
