@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.10.5...@eduzz/houston-mobile-ui@0.11.0) (2021-09-10)
+
+
+### Features
+
+* implement houston's base theme for mobile ([d14cad5](https://github.com/eduzz/houston-mobile/commit/d14cad50751f3ae62f0bd6bf2834bb0ede92d15f))
+
+
+
+
+
 ## [0.10.5](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.7.1...@eduzz/houston-mobile-ui@0.10.5) (2021-08-29)
 
 
