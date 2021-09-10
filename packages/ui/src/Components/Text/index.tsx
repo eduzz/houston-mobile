@@ -10,7 +10,7 @@ import type { FontSize, FontWeight } from "../../Interfaces/typography";
 interface TextProps {
   size?: keyof FontSize;
   weight?: keyof FontWeight;
-  children?: string;
+  children?: any;
 }
 
 const Text = ({
