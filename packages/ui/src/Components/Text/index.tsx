@@ -22,7 +22,7 @@ const Text = ({
   const styles = useStyles({ size, weight });
 
   return (
-    <RNEText style={styles.textStyle} {...props}>
+    <RNEText {...props} style={[styles.textStyle, props.style]}>
       {children}
     </RNEText>
   );
