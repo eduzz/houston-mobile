@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.6](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.11.3...@eduzz/houston-mobile-ui@0.11.6) (2021-09-10)
+
+
+### Bug Fixes
+
+* remove wrong export module ([03b57e4](https://github.com/eduzz/houston-mobile/commit/03b57e4eadb0c118907b5d559c9ed3bc76fbcf91))
+
+
+
+
+
 ## [0.11.5](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.11.3...@eduzz/houston-mobile-ui@0.11.5) (2021-09-10)
 
 
