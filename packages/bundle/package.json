@@ -1,7 +1,7 @@
 {
   "name": "@eduzz/houston-mobile",
   "description": "Houston mobile",
-  "version": "0.32.14",
+  "version": "0.32.15",
   "keywords": [
     "react-native",
     "houston-mobile",
@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@eduzz/houston-mobile-icons": "^0.4.2",
-    "@eduzz/houston-mobile-ui": "^0.11.2"
+    "@eduzz/houston-mobile-ui": "^0.11.3"
   },
   "react-native-builder-bob": {
     "source": "src",
