@@ -5,10 +5,11 @@ import ActionItem from "./Components/ActionSheet/ActionItem";
 import Modal, { IModal } from "./Components/Modal";
 import Text from "./Components/Text";
 import ThemeProvider from "./Components/ThemeProvider";
+import { RecursivePartial } from "./Declarations/react-native-elements";
 import { FontSize, FontWeight } from "./Interfaces/typography";
 
 // houston-mobile ui component types export
-export { IModal, FontSize, FontWeight };
+export { IModal, FontSize, FontWeight, RecursivePartial };
 
 // houston-mobile ui components export
 export { Modal, ActionSheet, ActionItem, Toast, Text, ThemeProvider };
