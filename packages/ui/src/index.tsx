@@ -5,6 +5,7 @@ import ActionItem from "./Components/ActionSheet/ActionItem";
 import Modal, { IModal } from "./Components/Modal";
 import Text from "./Components/Text";
 import ThemeProvider from "./Components/ThemeProvider";
+export * from "./Declarations/react-native-elements";
 
 // houston-mobile ui components export
 export { Modal, IModal, ActionSheet, ActionItem, Toast, Text, ThemeProvider };
@@ -27,4 +28,5 @@ export {
   Switch,
   makeStyles,
   useTheme,
+  FullTheme,
 } from "react-native-elements";
