@@ -7,7 +7,7 @@ import ActionItem, {
 import Modal, { ModalProps } from "./Components/Modal";
 import Text from "./Components/Text";
 import ThemeProvider from "./Components/ThemeProvider";
-import type { FontSize, FontWeight } from "./Interfaces/typography";
+import { FontSize, FontWeight } from "./Interfaces/typography";
 
 // houston component types export
 export { ModalProps, ActionItemProps, FontSize, FontWeight };

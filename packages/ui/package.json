@@ -82,5 +82,6 @@
   "dependencies": {
     "react-native-elements": "^3.4.2",
     "react-native-toast-message": "^1.4.9"
-  }
+  },
+  "gitHead": "970db7d8a25fad170e341426c3a89b1af2f53569"
 }
