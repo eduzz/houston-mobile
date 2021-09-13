@@ -1,6 +1,5 @@
-import * as React from 'react';
-import { useState, useEffect, useRef } from 'react';
-
+import * as React from "react";
+import { useState, useEffect, useRef } from "react";
 import {
   Animated,
   Dimensions,
@@ -13,7 +12,7 @@ import {
   ScrollView,
   TouchableWithoutFeedback,
   Platform,
-} from 'react-native';
+} from "react-native";
 
 export interface IModal {
   visible: boolean;
@@ -30,7 +29,7 @@ const SCROLL_ANIMATION_TIME = 300;
 
 const Modal = ({
   visible,
-  backgroundColor = '#fff',
+  backgroundColor = "#fff",
   onRequestClose,
   onFinishClosing,
   children,
@@ -50,7 +49,7 @@ const Modal = ({
         scrollToY(0);
         setTimeout(() => {
           setLocalVisible(false);
-          onFinishClosing && onFinishClosing();
+          onFinishClosing?.();
         }, SCROLL_ANIMATION_TIME);
       }
     }
@@ -70,11 +69,11 @@ const Modal = ({
 
   const onScrollEndDrag = (event: NativeSyntheticEvent<NativeScrollEvent>) => {
     if (
-      Platform.OS === 'ios'
+      Platform.OS === "ios"
         ? (event.nativeEvent.velocity?.y || 0) < -1
         : (event.nativeEvent.velocity?.y || 0) > 1
     ) {
-      onRequestClose && onRequestClose();
+      onRequestClose?.();
       return;
     }
 
@@ -85,7 +84,7 @@ const Modal = ({
       sheetHeight < screenTargetOcupation ? sheetHeight : screenTargetOcupation;
 
     if (event.nativeEvent.contentOffset.y < fixedSheetHeight / 2) {
-      onRequestClose && onRequestClose();
+      onRequestClose?.();
     } else {
       if (event.nativeEvent.contentOffset.y < screenHeight) {
         if (
@@ -105,7 +104,7 @@ const Modal = ({
   };
 
   const getScreenHeight = () => {
-    return Dimensions.get('window').height;
+    return Dimensions.get("window").height;
   };
 
   const getScreenTargetOcupation = () => {
@@ -133,11 +132,11 @@ const Modal = ({
       animationType="none"
       visible={localVisible}
       transparent
-      supportedOrientations={['portrait', 'landscape']}
+      supportedOrientations={["portrait", "landscape"]}
     >
       <SafeAreaView
         style={styles.container}
-        pointerEvents={isScrollingTo ? 'none' : 'auto'}
+        pointerEvents={isScrollingTo ? "none" : "auto"}
       >
         <Animated.View style={[styles.backdrop, { opacity }]} />
         <ScrollView
@@ -186,24 +185,24 @@ const styles = StyleSheet.create({
     minHeight: 200,
   },
   options: {
-    position: 'absolute',
-    width: '100%',
+    position: "absolute",
+    width: "100%",
     flex: 0,
   },
   items: {
     minHeight: 200,
   },
   backdrop: {
-    position: 'absolute',
-    width: '100%',
-    height: '100%',
-    backgroundColor: '#000',
+    position: "absolute",
+    width: "100%",
+    height: "100%",
+    backgroundColor: "#000",
   },
   closeBar: {
     height: 30,
     borderTopEndRadius: CLOSE_BAR_BORDER_RADIUS,
     borderTopStartRadius: CLOSE_BAR_BORDER_RADIUS,
-    alignItems: 'center',
+    alignItems: "center",
     paddingTop: 12,
     marginBottom: -1,
   },
@@ -211,7 +210,7 @@ const styles = StyleSheet.create({
     width: 50,
     height: 5,
     borderRadius: 5,
-    backgroundColor: '#C4C4C4',
+    backgroundColor: "#C4C4C4",
   },
 });
 
