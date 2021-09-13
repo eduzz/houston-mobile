@@ -44,6 +44,7 @@ export {
   Tab,
   Tile,
   Tooltip,
+  FullTheme,
   makeStyles,
   useTheme,
 } from "react-native-elements";
