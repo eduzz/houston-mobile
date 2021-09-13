@@ -7,9 +7,10 @@ import ActionItem, {
 import Modal, { ModalProps } from "./Components/Modal";
 import Text from "./Components/Text";
 import ThemeProvider from "./Components/ThemeProvider";
+import type { FontSize, FontWeight } from "./Interfaces/typography";
 
 // houston component types export
-export { ModalProps, ActionItemProps };
+export { ModalProps, ActionItemProps, FontSize, FontWeight };
 
 // houston components and RNE modified components export
 export { Modal, ActionSheet, ActionItem, Toast, Text, ThemeProvider };
