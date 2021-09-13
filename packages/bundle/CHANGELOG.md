@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.36.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile@0.32.11...@eduzz/houston-mobile@0.36.0) (2021-09-13)
+
+
+### Features
+
+* add ncu to the pre-push git hook ([6b62704](https://github.com/eduzz/houston-mobile/commit/6b62704349dc9490e1404790732fff209c1e6b0a))
+
+
+
+
+
 ## [0.32.11](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile@0.32.3...@eduzz/houston-mobile@0.32.11) (2021-08-29)
 
 
