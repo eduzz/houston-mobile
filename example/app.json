@@ -4,6 +4,7 @@
   "expo": {
     "name": "@eduzz/houston-mobile-example",
     "description": "Example app for @eduzz/houston-mobile",
+    "slug": "houston-mobile-example",
     "privacy": "public",
     "version": "1.0.0",
     "platforms": [

@@ -8,7 +8,7 @@ import {
   View,
 } from "react-native";
 
-export interface IActionItem {
+export interface ActionItemProps {
   title: string;
   description?: string;
   iconElement?: any;
@@ -26,7 +26,7 @@ const ActionItem = ({
   backgroundColor,
   avoidClosing,
   onPress,
-}: IActionItem) => {
+}: ActionItemProps) => {
   const [touchStartLocationY, setTouchStartLocationY] = useState(0);
 
   const onTouchStart = (event: GestureResponderEvent) => {

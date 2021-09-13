@@ -1,8 +1,8 @@
 import * as React from "react";
 
-import { IModal, Modal } from "..";
+import Modal, { ModalProps } from "../Modal";
 
-const ActionSheet = (props: IModal) => {
+const ActionSheet = (props: ModalProps) => {
   return <Modal {...props}>{props.children}</Modal>;
 };
 
