@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.35.2](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile@0.35.1...@eduzz/houston-mobile@0.35.2) (2021-09-13)
+
+
+### Bug Fixes
+
+* remove type from import FontSize and FontWeight ([a33143d](https://github.com/eduzz/houston-mobile/commit/a33143d05ea931eb06c0fb5d9f0a1e4be752f0a9))
+
+
+
+
+
 ## [0.35.1](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile@0.35.0...@eduzz/houston-mobile@0.35.1) (2021-09-13)
 
 **Note:** Version bump only for package @eduzz/houston-mobile
