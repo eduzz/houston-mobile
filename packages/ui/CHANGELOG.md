@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.15.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.14.0...@eduzz/houston-mobile-ui@0.15.0) (2021-09-13)
+
+
+### Features
+
+* export FontSize and FontWeight types ([471aab8](https://github.com/eduzz/houston-mobile/commit/471aab88ac21368528896d2c26f5eb83d07ba873))
+
+
+
+
+
 # [0.14.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.12.0...@eduzz/houston-mobile-ui@0.14.0) (2021-09-13)
 
 
