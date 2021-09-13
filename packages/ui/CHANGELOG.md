@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.14.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.12.0...@eduzz/houston-mobile-ui@0.14.0) (2021-09-13)
+
+
+### Features
+
+* implement houston's typography and use it in the Text component ([b74976c](https://github.com/eduzz/houston-mobile/commit/b74976c150f1c4153d97f0d896aae466b98d904c))
+
+
+
+
+
 # [0.13.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.12.0...@eduzz/houston-mobile-ui@0.13.0) (2021-09-13)
 
 
