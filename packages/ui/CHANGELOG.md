@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.16.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.15.1...@eduzz/houston-mobile-ui@0.16.0) (2021-09-13)
+
+
+### Features
+
+* export FullTheme type from react-native-elements ([5d59da9](https://github.com/eduzz/houston-mobile/commit/5d59da95482b4783750a8bd3048124142333d9eb))
+
+
+
+
+
 ## [0.15.1](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile-ui@0.15.0...@eduzz/houston-mobile-ui@0.15.1) (2021-09-13)
 
 
