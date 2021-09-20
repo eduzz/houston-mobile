@@ -1,4 +1,3 @@
-10 error Error: A GH_TOKEN environment variable is required.
-10 error     at createGitHubClient (/home/danilolucasmd/Code/houston-mobile/node_modules/@lerna/github-client/lib/github-client.js:17:11)
-10 error     at createReleaseClient (/home/danilolucasmd/Code/houston-mobile/node_modules/@lerna/version/lib/create-release.js:20:14)
-10 error     at VersionCommand.configureProperties (/home/danilolucasmd/Code/houston-mobile/node_modules/@lerna/version/index.js:80:58)
+74 error HttpError: Bad credentials
+74 error     at /Users/danilolucasmd/Code/houston-mobile/node_modules/@octokit/request/dist-node/index.js:86:21
+74 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
