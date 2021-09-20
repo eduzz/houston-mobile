@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.37.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile@0.36.0...@eduzz/houston-mobile@0.37.0) (2021-09-20)
+
+
+### Features
+
+* implement title into the Modal component ([660565c](https://github.com/eduzz/houston-mobile/commit/660565c82fcfc26a30bc83022a23a51a6102a872))
+
+
+
+
+
 # [0.36.0](https://github.com/eduzz/houston-mobile/compare/@eduzz/houston-mobile@0.32.11...@eduzz/houston-mobile@0.36.0) (2021-09-13)
 
 
