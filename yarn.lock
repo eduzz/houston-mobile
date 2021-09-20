@@ -1969,6 +1969,14 @@
   dependencies:
     chalk "^4.0.0"
 
+"@eduzz/houston-mobile-ui@^0.10.5":
+  version "0.10.5"
+  resolved "https://registry.yarnpkg.com/@eduzz/houston-mobile-ui/-/houston-mobile-ui-0.10.5.tgz#25428b7a4574ff26b39c9fee66d55c2be7f8e711"
+  integrity sha512-Dlq7ZyfG1HT8o25K8wswaB/sgtTcbxWH+bJQFgzKm2Oq6o0LrlCdlHxQHQLLVknffkpki5WdItSVB2k1VPZt1w==
+  dependencies:
+    react-native-elements "^3.4.2"
+    react-native-toast-message "^1.4.9"
+
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.3.tgz#9e42981ef035beb3dd49add17acb96e8ff6f394c"

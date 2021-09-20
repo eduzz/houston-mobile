@@ -8,13 +8,12 @@ import {
   View,
 } from "react-native";
 
-export interface IActionItem {
+export interface ActionItemProps {
   title: string;
   description?: string;
   iconElement?: any;
   color?: string;
   backgroundColor?: string;
-  avoidClosing?: boolean;
   onPress?: (event: GestureResponderEvent) => void;
 }
 
@@ -24,9 +23,8 @@ const ActionItem = ({
   iconElement,
   color,
   backgroundColor,
-  avoidClosing,
   onPress,
-}: IActionItem) => {
+}: ActionItemProps) => {
   const [touchStartLocationY, setTouchStartLocationY] = useState(0);
 
   const onTouchStart = (event: GestureResponderEvent) => {
@@ -38,16 +36,7 @@ const ActionItem = ({
       event.stopPropagation();
       return;
     }
-
-    if (avoidClosing) {
-      event.stopPropagation();
-      onPress?.(event);
-      return;
-    }
-
-    setTimeout(() => {
-      onPress?.(event);
-    }, 300);
+    onPress?.(event);
   };
 
   return (

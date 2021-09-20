@@ -31,7 +31,6 @@ export default function App() {
       >
         <ActionItem
           title="Excluir"
-          avoidClosing
           description="Excluir esta notificação"
           color="#fff"
           iconElement={<Image style={styles.icon} source={deleteImage} />}
@@ -41,6 +40,7 @@ export default function App() {
           description="Pare de receber notificações deste curso"
           color="#fff"
           iconElement={<Image style={styles.icon} source={notificationsOff} />}
+          onPress={closeActionSheet}
         />
       </ActionSheet>
     </View>

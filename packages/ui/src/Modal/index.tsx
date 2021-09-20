@@ -13,9 +13,12 @@ import {
   TouchableWithoutFeedback,
   Platform,
 } from "react-native";
+import { Text } from "react-native-elements";
 
-export interface IModal {
+export interface ModalProps {
   visible: boolean;
+  title?: string;
+  titleColor?: string;
   backgroundColor?: string;
   onRequestClose?: () => void;
   onFinishClosing?: () => void;
@@ -29,11 +32,13 @@ const SCROLL_ANIMATION_TIME = 300;
 
 const Modal = ({
   visible,
+  title,
+  titleColor = "#000",
   backgroundColor = "#fff",
   onRequestClose,
   onFinishClosing,
   children,
-}: IModal) => {
+}: ModalProps) => {
   const [localVisible, setLocalVisible] = useState(visible);
   const [normalizedOffsetY, setNormalizedOffsetY] = useState(0);
   const [distanceToTop, setDistanceToTop] = useState(CLOSE_BAR_BORDER_RADIUS);
@@ -165,9 +170,15 @@ const Modal = ({
           >
             <View style={styles.closeBarIndicator} />
           </View>
-          <View style={[styles.content, { backgroundColor }]}>
-            <View onTouchEnd={onRequestClose}>{children}</View>
-          </View>
+          {!!title && (
+            <Text
+              numberOfLines={1}
+              style={[styles.title, { color: titleColor, backgroundColor }]}
+            >
+              {title}
+            </Text>
+          )}
+          <View style={[styles.content, { backgroundColor }]}>{children}</View>
         </ScrollView>
       </SafeAreaView>
     </ReactNativeModal>
@@ -211,6 +222,13 @@ const styles = StyleSheet.create({
     height: 5,
     borderRadius: 5,
     backgroundColor: "#C4C4C4",
+  },
+  title: {
+    width: "100%",
+    textAlign: "center",
+    fontSize: 18,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
   },
 });
 
