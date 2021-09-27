@@ -1,3 +1,4 @@
+import useStyles from "packages/ui/src/hooks/useStyles";
 import * as React from "react";
 import { useState } from "react";
 import {
@@ -25,6 +26,34 @@ const ActionItem = ({
   backgroundColor,
   onPress,
 }: ActionItemProps) => {
+  const styles = useStyles((theme) => ({
+    container: {
+      flex: 0,
+      backgroundColor: "transparent",
+      flexDirection: "row",
+      alignItems: "center",
+      paddingVertical: 8,
+      paddingHorizontal: 20,
+    },
+    icon: {
+      flex: 0,
+      width: 30,
+      height: 30,
+      marginRight: 16,
+    },
+    info: {
+      flex: 1,
+    },
+    title: {
+      color: theme.palette.black,
+      fontSize: 18,
+    },
+    description: {
+      color: theme.palette.black,
+      fontSize: 14,
+    },
+  }));
+
   const [touchStartLocationY, setTouchStartLocationY] = useState(0);
 
   const onTouchStart = (event: GestureResponderEvent) => {
@@ -59,33 +88,5 @@ const ActionItem = ({
     </TouchableOpacity>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 0,
-    backgroundColor: "transparent",
-    flexDirection: "row",
-    alignItems: "center",
-    paddingVertical: 8,
-    paddingHorizontal: 20,
-  },
-  icon: {
-    flex: 0,
-    width: 30,
-    height: 30,
-    marginRight: 16,
-  },
-  info: {
-    flex: 1,
-  },
-  title: {
-    color: "#000",
-    fontSize: 18,
-  },
-  description: {
-    color: "#000",
-    fontSize: 14,
-  },
-});
 
 export default ActionItem;

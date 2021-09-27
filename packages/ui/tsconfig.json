@@ -1,6 +1,33 @@
 {
   "extends": "../../tsconfig",
   "compilerOptions": {
-    "outDir": "./lib/typescript"
-  }
+    "outDir": "./lib/typescript",
+    "target": "es2016",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "importHelpers": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "strict": false,
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  },
+  "include": [
+    "src/**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.js"
+  ],
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules",
+    "bower_components"
+  ]
 }
